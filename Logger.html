@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>Zipp-Logger</title>
+        <link rel="stylesheet" href="style.css"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+        </script>
+        <script src="main.js">
+        </script>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td><b>IP</b></td>
+                <td><b>Browser</b></td>
+                <td><b>OS</b></td>
+                <td><b>Location</b></td>
+            </tr>
+            <tr>
+                <td id="ip"></td>
+                <td id="browser"></td>
+                <td id="os"></td>
+                <td id="location"></td>
+            </tr>
+        </table>
+        <script>
+            ip();
+            browser();
+            os();
+            locations();
+        </script>
+    </body>
+</html>

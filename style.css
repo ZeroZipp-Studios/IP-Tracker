@@ -1,0 +1,17 @@
+table {
+    background-color: rgb(80, 80, 80);
+    padding: 5px;
+    border: rgb(80, 80, 80);
+    border-radius: 5px;
+}
+body {
+    background-color: rgb(150, 150, 150);
+    font-family: 'Play', sans-serif;
+}
+
+td {
+    background-color: rgb(150, 150, 150);
+    padding: 5px;
+    border: rgb(80, 80, 80);
+    border-radius: 5px;
+}
